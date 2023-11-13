@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Elena Howatson"
 output: html_document
 ---
 
@@ -14,7 +14,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
+```{r library, include=FALSE}
+#PACKAGES ----
+library(tidyverse)
+library(here)
+library(kableExtra)
 
+```
 ### Cool animal fun facts {.tabset .tabset-fade}
 
 #### SHARKS!!!
@@ -57,7 +63,13 @@ knitr::opts_chunk$set(echo = TRUE)
 - They are not endangered, just very elusive
 - Closely related to raccoons
 
-###
+#### Grogu
+![Photo: Emma O'Connor/UEA Photography Award](img/Grogu.jpg)
+-Also known as "The Child"
+
+-likes unfertilised frog eggs & control knobs
+
+-strong with the force
 
 ----------
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
